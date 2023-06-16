@@ -24,6 +24,7 @@ body {
     display: flex;
     justify-content: space-between;
     position: fixed;
+    gap:55vw;
 }
 
 .navbar{
