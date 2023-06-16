@@ -12,7 +12,7 @@ html,body{
 }
 
 body {
-    background-color: #212121;
+    background-color: #18191a;
     width: 100vw;
     height: 100vh;
     margin: 0;
@@ -21,10 +21,17 @@ body {
 }
 
 .header{
+    position: fixed;
     display: flex;
     justify-content: space-between;
-    position: fixed;
-    gap:55vw;
+    gap: 55vw;
+}
+
+.logo h1{
+    font-size: 25px;
+    padding: 25px;
+    color: white;
+    font-weight: 800;
 }
 
 .navbar{
@@ -37,6 +44,7 @@ body {
     list-style: none;
     text-decoration: none;
     padding: 10px;
+    backdrop-filter: blur(10px);
 }
 
 .navbar ul li{
@@ -119,12 +127,17 @@ body {
     transform: scale(1.1);
 }
 
+.second{
+    margin: auto;
+}
+
 .edu{
     height: 100vh;
+    background-color: #18191a;
 }
 
 .top, .top1, .top2{
-    padding-top: 12vh;
+    padding-top: 6vh;
     font-size: 20px;
     display: flex;
     justify-content: center;
@@ -172,6 +185,8 @@ body {
 .contact{
     position: relative;
     height: 100vh;
+    background-color: #1a1a1d;
+    z-index: -1;
 }
 
 .mid2{
@@ -194,7 +209,7 @@ body {
     position: absolute;
     margin-left: 20%;
     padding: 70px 50px;
-    width: 60%;
+    width: 900px;
     height:500px;
     background-image: url(icons/bg.png);
     padding-left: 250px;
