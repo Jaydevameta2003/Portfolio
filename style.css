@@ -20,14 +20,10 @@ body {
     overflow-x: hidden;
 }
 
-
-/* header{
-    position: fixed;
-} */
-
 .header{
     display: flex;
     justify-content: space-between;
+    position: fixed;
 }
 
 .navbar{
