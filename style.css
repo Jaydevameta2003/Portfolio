@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500; 600; 700; 800; 900& display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,body{
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #212121;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+/* header{
+    position: fixed;
+} */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar{
+    padding: 10px;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar ul li{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    padding: 0px 4px;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 500;
+}
+
+.navbar ul li a:hover, .navbar ul li a.active:hover{
+    color: black;
+    background-color: aqua;
+    border-radius: 15px;
+    font-weight: 500;
+}
+
+.navbar ul li a.active{
+    color: aqua;
+}
+
+.home{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.first{
+    text-align: center;
+    width: 50vw;
+
+}
+
+.ff{
+    min-height: 70vh;
+    margin: auto;
+    padding-top: 30vh;
+    width: 50%;
+}
+
+.ff h1{
+    font-size: 30px;
+    color: white;
+}
+.ff h2{
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+.ff h3{
+    color: #b82601;
+}
+
+.ff span{
+    color: aqua;
+}
+
+.bottom a{
+    position: relative;
+    display: inline-flex;
+    width: 3rem;
+    height: 3rem;
+    border: .2rem solid aqua;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    background: transparent;
+    transition: .5 ease;
+    margin: 3rem 1.5rem 3rem 0rem;
+}
+
+.bottom a:hover{
+    border: .3rem solid #b82601;
+    transform: scale(1.1);
+}
+
+.edu{
+    height: 100vh;
+}
+
+.top, .top1, .top2{
+    padding-top: 12vh;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.mid{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+
+.col{
+    margin-left: 2vw;
+    width: 300px;
+    border-radius: 15px;
+    height: auto;
+    background-color: #fcf59d;
+    color: rgb(7, 7, 53);
+}
+
+.sch2{
+    width: 300px;
+    border-radius: 15px;
+    background-color: #fcf59d;
+    color: rgb(7, 7, 53);
+}
+
+.sch1{
+    margin-right: 2vw;
+    width: 300px;
+    border-radius: 15px; 
+    background-color: #fcf59d;
+    color: rgb(7, 7, 53);
+}
+
+.col:hover,.sch2:hover, .sch1:hover{
+    background-color: aqua;
+    transform: scale(1.04);
+}
+
+.about{
+    height: 100vh;
+}
+
+.contact{
+    position: relative;
+    height: 100vh;
+}
+
+.mid2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contactinfo{
+    position: absolute;
+    margin: 100px;
+    margin-top: 75px;
+    width: 350px;
+    height: 350px;
+    background-color: #053835;
+    z-index: 1;
+    margin-left: 10%;
+}
+
+.contactform{
+    position: absolute;
+    margin-left: 20%;
+    padding: 70px 50px;
+    width: 60%;
+    height:500px;
+    background-image: url(icons/bg.png);
+    padding-left: 250px;
+}
+
+.contactform h1{
+    font-size: 30px;
+    color: white;
+    width: 500px;
+    text-align: center;
+}
+
+.contactform form{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    flex-wrap: wrap;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+
+}
+
+.contactform input{
+    width: 350px;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: none;
+}
+
+.contactform textarea{
+    min-width:300px;
+}
+
+.contactform input::placeholder{
+    color: white;
+}
+
+.contactform textarea{
+    background: none;
+}
+
+.contactform form #button{
+    background: #037e76;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.contactinfo .info1{
+    padding: 10px;
+}
+
+.contactinfo span{  
+    text-align: center;
+    color: white;
+}
+
+.contactinfo ul{
+    margin: 20px;
+    list-style: none;
+    padding: 20px;
+}
+
+.contactinfo ul li{
+    margin: 20px;
+    width: 100%;
+    font-weight: 100;
+    display: flex;
+}
+
+.heading{
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    padding-top: 20px;
+}
