@@ -137,7 +137,7 @@ body {
 }
 
 .top, .top1, .top2{
-    padding-top: 6vh;
+    padding-top: 4vh;
     font-size: 20px;
     display: flex;
     justify-content: center;
