@@ -36,6 +36,9 @@ body {
     font-family: 'Dancing Script', cursive;
     letter-spacing: 2px;
     text-shadow: 2px 2px rgb(70, 175, 236);
+    backdrop-filter:blur(10px);
+    width: 150px;
+    border-radius: 15px;
 }
 
 .navbar{
@@ -60,7 +63,7 @@ body {
 
 .navbar ul li a{
     text-decoration: none;
-    padding: 0px 4px;
+    padding: 0px 1rem;
     font-size: 1.3rem;
     color: white;
     font-weight: 500;
@@ -292,7 +295,7 @@ body {
 }
 
 .contactform form{
-    width: 60%;
+    width: 35vw;
     height: 45vh;
     display: flex;
     justify-content: center;
@@ -360,6 +363,9 @@ body {
 }
 
 @media (width<=1280px){
+    .home, .edu, .about, .contact{
+        height: auto;
+    }
     .top, .top1, .top2{
         padding-top: 12vh;
     }
@@ -369,33 +375,65 @@ body {
 
     .contactform{
         margin: auto;
-        width: 70%;
-        height: 50%;
-        margin-top: 6vh;
-        padding-top:10px;
-        padding-bottom: 10px;
+        width: 80%;
+        height: 45%;
+        margin-top: 4vh;
+        padding: 10vw;
     }
 
     .contactform form{
-        width: 70%;
+        width: 55vw;
+        height: 45vh;
+        margin-left: 0px;
+    }
+
+    .contactform h1{
+        font-size: 1rem;
+        color: white;
+        width: 500px;
+        text-align: center;
+        padding-top: 5vh;
+    }
+
+    .contactform h4{
+        font-size: 0.8rem;
+        color: white;
+    }
+    
+    .contactform input{
+        width: 50vw;
+        height: 30px;
+        font-size: 0.8rem;
+        margin: 0px;
+    }
+
+    .contactform form #button{
+        width: 20vw;
+        height: 30px;
     }
 
     .contactinfo{
-        width: 45vw;
+        width: 50vw;
         height: 20vh;
         margin: auto;
         margin-top: 3vh;
     }
+    
 
     .contactinfo h1{
-        font-size: 1.5rem;
+        font-size: 1rem;
         padding-top: 0px;
     }
 
     .contactinfo ul{
         margin: 5px;
-        list-style: none;
         padding: 5px;
+    }
+
+    .contactinfo ul li{
+        margin:2px;
+        width: 100%;
+        font-size: 0.8rem;
     }
 
     .about .mid1{
@@ -439,7 +477,7 @@ body {
         width:40vw;
         height: auto;
         margin-bottom: 0px;
-        margin-top: 3%;
+        margin-top: 50%;
         padding-top: 3%;
     }
 
@@ -448,13 +486,14 @@ body {
     }
 
     .home .first{
-        display: flex;
-        width: 80%;
-        height: 30%;
-        margin: 10px 10%;
+        width: 100vw;
+        height: auto;
+        margin: 0px 1%;
     }
 
     .home .first .ff{
+        width: 100%;
+        min-height:50%;
         margin: 0px;
         padding: 0px;
     }
@@ -500,6 +539,15 @@ body {
         max-height: 100%;
         align-items: center;
         margin: auto;
+    }
+
+    .navbar ul li a{
+        font-size: 1rem;
+        padding: 0.8vw;
+    }
+
+    .navbar ul{
+        gap: 0.3rem;
     }
 
 }
