@@ -43,12 +43,11 @@ body {
 
 .navbar{
     padding: 10px;
-    z-index: 5;
 }
 
 .navbar ul{
     display: flex;
-    gap: 2rem;
+    gap: 1.5rem;
     list-style: none;
     text-decoration: none;
     padding: 1.2vw;
