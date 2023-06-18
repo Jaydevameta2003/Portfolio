@@ -413,7 +413,7 @@ body {
     }
 
     .contactinfo{
-        width: 50vw;
+        width: 60vw;
         height: 20vh;
         margin: auto;
         margin-top: 3vh;
@@ -422,19 +422,19 @@ body {
 
     .contactinfo h1{
         font-size: 1.1rem;
-        padding-top: 10px;
+        padding-top: 5px;
     }
 
     .contactinfo ul{
         margin: 5px;
-
+        padding: 0px;
     }
 
     .contactinfo ul li{
         margin:2px;
         width: 100%;
-        font-size: 0.9rem;
-        padding-top: 7px;
+        font-size: 10px;
+        padding-top: 4px;
         align-items: center;
         text-align: center;
     }
